@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro&display=swap");
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.wrapper {
+  margin-left: 14px;
+  width: 320px;
+  max-height: 603px;
+  overflow-x: hidden;
+  padding-top: 13px;
+}
+.wrapper__title {
+  width: 206px;
+  height: 56px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 114.7%;
+  margin: 0;
+}
+.wrapper__inner {
+  margin-top: 3px;
+}
+.wrapper__item {
+  border: 1px solid #eaeaea;
+  border-radius: 2px;
+  height: 88px;
+  margin-top: 10px;
+  display: flex;
+}
+.wrapper__box {
+  margin-left: 9px;
+  position: relative;
+  width: 203px;
+}
+.wrapper__header {
+  height: 22px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #828282;
+  padding-top: 10px;
+}
+.wrapper__price {
+  width: 120px;
+  height: 22px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #20201f;
+  margin-top: 24px;
+}
+.wrapper__btn {
+  text-decoration: none;
+  position: absolute;
+  width: 71px;
+  height: 10px;
+  font-size: 12px;
+  line-height: 100%;
+  background: #ff6666;
+  bottom: 13px;
+  right: 8px;
+  color: #fff;
+  border-radius: 26px;
+  padding: 3px;
+}
